@@ -2281,6 +2281,7 @@ li {
     display: block;
     margin-top: 42px;
     margin-bottom: 115px;
+    padding-bottom: 4rem;
 }
 
 .welcome-one__list li {
@@ -4401,7 +4402,7 @@ li {
 .upcoming-events__img {
     position: relative;
     display: block;
-    width: 186px;
+    width: 500px;
     border-radius: var(--thm-border-radius);
     background: var(--thm-black);
     overflow: hidden;
@@ -4452,7 +4453,7 @@ li {
 }
 
 .upcoming-events__content {
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .upcoming-events__meta-box li {
@@ -4493,8 +4494,12 @@ li {
 
 .upcoming-events__text {
     margin: 0;
+    text-align: justify;
 }
 
+.upcoming-events__text a {
+    color: #423d49;
+}
 
 .events-and-newsletter__newsletter {
     position: relative;
