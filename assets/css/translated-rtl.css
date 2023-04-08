@@ -86,10 +86,6 @@
     margin-right: 50px;
 }
 
-.we-need-help__img img {
-    margin-right: 39%;
-}
-
 .we-need-help__faqs{
     text-align: right;
 
@@ -104,13 +100,77 @@
     margin-left: 5px;
 }
 
-.we-need-help__img img {
-    margin-right: 39%;
-}
 
 .we-need-help__faqs{
     text-align: right;
 
+}
+
+  /* evnt Page */
+  .event-page__single {
+    text-align: right;
+}
+
+.event-page__content a{
+    color: var(--base-primary);
+
+}
+.event-page__title {
+    font-size: 26px;
+}
+.event-page__meta-box {
+    padding-top: 4px;
+} 
+
+.event-page__content{
+    height: 300px;
+}
+/* event details  */
+
+
+.event-details-top__contant {
+    margin-right: 70px;
+    text-align: right;
+}
+.event-details-top__title {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.news-one__content{
+    text-align: center;
+}
+
+.event-details-top__text-one {
+   
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 29px;
+    font-size: 19px;
+}
+
+.event-details-top__text-one {
+   
+    padding-right: 13px;
+    padding-left: 25px;
+    line-height: 29px;
+    font-size: 19px;
+}
+.event-details-top__text-two {
+    margin-top: -22px;
+    padding-right: 13px;
+    padding-left: 25px;
+    line-height: 29px;
+    font-size: 19px;
+}
+.course-deatails{
+    margin-top: 0px;
+    padding-top: 125px;
+}
+
+.we-need-help__img img {
+    width: 65%;
 }
 
 .translated-rtl .main-nav__header-one__top {
