@@ -86,10 +86,6 @@
     margin-right: 50px;
 }
 
-.we-need-help__img img {
-    margin-right: 39%;
-}
-
 .we-need-help__faqs{
     text-align: right;
 
@@ -104,9 +100,6 @@
     margin-left: 5px;
 }
 
-.we-need-help__img img {
-    margin-right: 39%;
-}
 
 .we-need-help__faqs{
     text-align: right;
@@ -174,5 +167,9 @@
 .course-deatails{
     margin-top: 0px;
     padding-top: 125px;
+}
+
+.we-need-help__img img {
+    width: 65%;
 }
 
