@@ -1333,6 +1333,10 @@
         right: -68px;
         padding: 43px 0;
     }
+
+    .main-nav__header-one__top {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

@@ -8,3 +8,108 @@
     direction: rtl;
 }
 
+.translated-rtl .main-nav__header-one__top {
+    position: relative;
+    display: block;
+    background: #267cd1;
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.translated-rtl .main-nav__header-one__top-social a {
+    margin-left: 40px;
+}
+
+.translated-rtl .up-header .main-nav__main-navigation .main-nav__navigation-box>li::after {
+    content: "|";
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.translated-rtl .main-nav__main-navigation {
+    position: relative;
+    /* display: block; */
+    margin-right: 3rem;
+}
+
+.translated-rtl .main-nav__left-one {
+    padding-right: 163px;
+}
+
+.translated-rtl .up-header .main-nav__left-one {
+    padding-right: 0px;
+}
+
+.translated-rtl .up-header .main-nav__main-navigation {
+    margin-right: 0rem
+}
+
+.translated-rtl .up-header .main-nav__main-navigation .main-nav__navigation-box>li:last-child:after {
+    content: "";
+}
+
+.translated-rtl .up-header .main-nav__main-navigation .main-nav__navigation-box>li {
+    margin-left: 0px;
+}
+
+.translated-rtl .main-nav__main-navigation .main-nav__navigation-box>li {
+    margin-left: 59px;
+}
+
+.translated-rtl .main-nav__main-navigation .main-nav__navigation-box>li ul>li>a {
+    text-align: start;
+}
+
+.welcome-two__counter {
+    left: -82px;
+}
+.welcome-two__right {
+    text-align: right;
+}
+.welcome-one__list li span {
+    margin-left: 14px;
+}
+.welcome-one__right{
+    flex-direction: row-reverse;
+}
+.welcome-one__right {
+    margin-right: 50px;
+    text-align: right;
+}
+
+.events-and-newsletter__btn {
+    float: left;
+}
+.upcoming-events__content {
+    margin-right: 50px;
+}
+
+.we-need-help__img img {
+    margin-right: 39%;
+}
+
+.we-need-help__faqs{
+    text-align: right;
+
+}
+.faq-one-accrodion .accrodion-title h4::before{
+    right: -29px;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+
+    margin-left: 5px;
+}
+
+.we-need-help__img img {
+    margin-right: 39%;
+}
+
+.we-need-help__faqs{
+    text-align: right;
+
+}
+
