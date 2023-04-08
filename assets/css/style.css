@@ -996,8 +996,7 @@ li {
 /*================= Side Menu Toggler Icon ==================*/
 .main-nav__left {
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: block;
 }
 
 .main-nav__left .side-menu__toggler {
