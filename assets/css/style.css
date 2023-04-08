@@ -996,7 +996,8 @@ li {
 /*================= Side Menu Toggler Icon ==================*/
 .main-nav__left {
     position: relative;
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .main-nav__left .side-menu__toggler {
@@ -4482,7 +4483,7 @@ li {
 .upcoming-events__img {
     position: relative;
     display: block;
-    width: 500px;
+    /* width: 500px; */
     border-radius: var(--thm-border-radius);
     background: var(--thm-black);
     overflow: hidden;
