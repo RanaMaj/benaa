@@ -65,15 +65,19 @@
 .welcome-two__counter {
     left: -82px;
 }
+
 .welcome-two__right {
     text-align: right;
 }
+
 .welcome-one__list li span {
     margin-left: 14px;
 }
-.welcome-one__right{
+
+.welcome-one__right {
     flex-direction: row-reverse;
 }
+
 .welcome-one__right {
     margin-right: 50px;
     text-align: right;
@@ -82,49 +86,55 @@
 .events-and-newsletter__btn {
     float: left;
 }
+
 .upcoming-events__content {
     margin-right: 50px;
 }
 
-.we-need-help__faqs{
+.we-need-help__faqs {
     text-align: right;
 
 }
-.faq-one-accrodion .accrodion-title h4::before{
+
+.faq-one-accrodion .accrodion-title h4::before {
     right: -29px;
 }
 
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
 
     margin-left: 5px;
 }
 
 
-.we-need-help__faqs{
+.we-need-help__faqs {
     text-align: right;
 
 }
 
-  /* evnt Page */
-  .event-page__single {
+/* evnt Page */
+.event-page__single {
     text-align: right;
 }
 
-.event-page__content a{
+.event-page__content a {
     color: var(--base-primary);
 
 }
+
 .event-page__title {
     font-size: 26px;
 }
+
 .event-page__meta-box {
     padding-top: 4px;
-} 
+}
 
-.event-page__content{
+.event-page__content {
     height: 300px;
 }
+
 /* event details  */
 
 
@@ -132,18 +142,19 @@
     margin-right: 70px;
     text-align: right;
 }
+
 .event-details-top__title {
     font-size: 35px;
     line-height: 35px;
     font-weight: 500;
 }
 
-.news-one__content{
+.news-one__content {
     text-align: center;
 }
 
 .event-details-top__text-one {
-   
+
     padding-right: 25px;
     padding-left: 25px;
     line-height: 29px;
@@ -151,12 +162,13 @@
 }
 
 .event-details-top__text-one {
-   
+
     padding-right: 13px;
     padding-left: 25px;
     line-height: 29px;
     font-size: 19px;
 }
+
 .event-details-top__text-two {
     margin-top: -22px;
     padding-right: 13px;
@@ -164,7 +176,8 @@
     line-height: 29px;
     font-size: 19px;
 }
-.course-deatails{
+
+.course-deatails {
     margin-top: 0px;
     padding-top: 125px;
 }
@@ -224,5 +237,24 @@
 }
 
 .translated-rtl .main-nav__main-navigation .main-nav__navigation-box>li ul>li>a {
+    text-align: start;
+}
+
+.translated-rtl .popular-causes__title h3 {
+    text-align: start;
+}
+
+.translated-rtl .popular-causes__category {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    background: var(--thm-base);
+    padding: 1px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    right: auto;
+}
+
+.translated-rtl .popular-causes__title p {
     text-align: start;
 }
