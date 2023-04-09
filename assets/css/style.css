@@ -1414,6 +1414,17 @@ li {
     padding-bottom: 210px;
 }
 
+@font-face {
+    font-family: Uthmani;
+    src: url(/assets/fonts/UthmanicHafs1Ver09.otf);
+}
+
+.main-slider .swiper-slide-active .thm-btn,
+.main-slider .swiper-slide-active h2,
+.main-slider .swiper-slide-active p {
+    font-family: uthmani;
+}
+
 .main-slider p {
     position: relative;
     display: inline-block;
