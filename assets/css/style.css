@@ -562,7 +562,7 @@ li {
 .main-nav__header-one__top {
     position: relative;
     display: block;
-    background: #267cd1;
+    background: #2b2b2b;
     padding: 2px 0;
     display: flex;
     justify-content: space-evenly;
@@ -576,7 +576,7 @@ li {
     content: "";
     left: 0;
     right: -100000000px;
-    background: #267cd1;
+    background: #2b2b2b;
     z-index: -1;
 }
 
@@ -701,7 +701,7 @@ li {
     position: relative;
     display: inline-block;
     color: #333333;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 28px;
     font-weight: 600;
     text-transform: capitalize;
@@ -798,7 +798,7 @@ li {
     left: 0;
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
-    background: #267cd1;
+    background: #2b2b2b;
     visibility: hidden;
     opacity: 0;
 }
@@ -911,7 +911,7 @@ li {
 
 /* #1F7BA1 */
 .main-nav__header-one__top {
-    background: #267cd1;
+    background: #2b2b2b;
 }
 
 .up-header .main-nav__main-navigation {
@@ -1429,7 +1429,7 @@ li {
     position: relative;
     display: inline-block;
     margin: 0;
-    font-size: 40px;
+    font-size: 24px;
     color: #ffffff;
     font-family: var(--thm-font-shadows);
     line-height: 50px;
@@ -1462,7 +1462,7 @@ li {
     margin-top: 10px;
     margin-bottom: 41px;
     color: #fff;
-    font-size: 110px;
+    font-size: 75px;
     line-height: 120px;
     opacity: 0;
     visibility: hidden;
@@ -2279,7 +2279,7 @@ li {
 .welcome-one {
     position: relative;
     display: block;
-    padding-top: 195px;
+    padding-top: 100px;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
@@ -2786,7 +2786,7 @@ li {
 .we-need-help__left {
     position: relative;
     display: block;
-    padding-top: 135px;
+    /* padding-top: 135px; */
 }
 
 .faq-one-accrodion .accrodion {
@@ -2886,7 +2886,7 @@ li {
     position: relative;
     display: block;
     margin-right: -362px;
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 .we-need-help__img img {
@@ -2919,8 +2919,8 @@ li {
 
 .we-need-help__give .text h4 {
     color: #ffffff;
-    font-size: 35px;
-    font-family: var(--thm-font-shadows);
+    font-size: 28px;
+    /* font-family: var(--thm-font-shadows); */
     line-height: 45px;
 }
 
@@ -3062,7 +3062,8 @@ li {
     height: 100%;
     width: 100%;
     content: "";
-    background: rgb(160 160 149 / 50%);
+    background: radial-gradient(circle, rgba(255, 109, 18, 0.7875525210084033) 2%, rgba(43, 114, 143, 0.5606617647058824) 54%, rgba(43, 43, 43, 0.6362920168067228) 82%);
+    opacity: 0.6;
 }
 
 .join-one__inner {
@@ -4475,7 +4476,7 @@ li {
 .upcoming-events {
     position: relative;
     display: block;
-    margin-right: 65px;
+    /* margin-right: 65px; */
 }
 
 .upcoming-events__sinlge {
@@ -4489,6 +4490,7 @@ li {
 .upcoming-events__img-box {
     position: relative;
     display: block;
+    width: 100%;
 }
 
 .upcoming-events__img {
@@ -4565,13 +4567,17 @@ li {
 }
 
 .upcoming-events__title {
-    margin-bottom: 32px;
+    margin-bottom: 5px;
 }
 
 .upcoming-events__title h3 {
     font-size: 30px;
     font-family: var(--thm-font);
-    line-height: 36px;
+    line-height: 16px;
+}
+
+.title_four {
+    line-height: 32px !important;
 }
 
 .upcoming-events__title h3 a {
