@@ -279,3 +279,20 @@
 .translated-rtl .popular-causes__title p {
     text-align: start;
 }
+
+@font-face {
+    font-family: Uthmani;
+    src: url(/assets/fonts/UthmanicHafs1Ver09.otf);
+}
+
+.translated-rtl .join-one__inner h4 {
+    font-family: Uthmani;
+}
+
+.translated-rtl .news-one__date-box {
+    left: 20px;
+}
+
+.translated-rtl .news-one__title h3 {
+    text-align: start;
+}

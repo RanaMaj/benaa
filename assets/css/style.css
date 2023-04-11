@@ -3324,6 +3324,7 @@ li {
     background: #ffffff;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    height: 215px;
 }
 
 .news-one__single:hover .news-one__content {
