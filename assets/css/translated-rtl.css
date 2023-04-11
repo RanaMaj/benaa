@@ -8,6 +8,12 @@
     direction: rtl;
 }
 
+.translated-rtl .main-slider .swiper-slide-active .thm-btn,
+.translated-rtl .main-slider .swiper-slide-active h2,
+.translated-rtl .main-slider .swiper-slide-active p {
+    /* font-family: uthmani; */
+}
+
 .translated-rtl .main-nav__header-one__top {
     position: relative;
     display: block;
