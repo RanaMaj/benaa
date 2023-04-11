@@ -321,17 +321,6 @@ li {
     text-align: center;
 }
 
-.preloader__image {
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    -webkit-animation-name: flipInY;
-    animation-name: flipInY;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
 .scroll-to-top {
     display: inline-block;
     width: 45px;
@@ -4561,6 +4550,7 @@ li {
 
 .upcoming-events__content {
     margin-left: 25px;
+    /* width: 100%; */
 }
 
 .upcoming-events__meta-box li {

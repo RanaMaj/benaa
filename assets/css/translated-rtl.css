@@ -188,8 +188,23 @@
     padding-top: 125px;
 }
 
-.we-need-help__img img {
-    width: 65%;
+.translated-rtl .we-need-help__right {
+    position: relative;
+    display: block;
+    margin-right: 34px;
+}
+
+.translated-rtl .we-need-help__img {
+    position: relative;
+    display: block;
+    margin-left: -362px;
+    /* margin-top: -60px; */
+    margin-right: auto;
+}
+
+.translated-rtl .we-need-help__img img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .translated-rtl .main-nav__header-one__top {

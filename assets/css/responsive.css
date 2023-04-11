@@ -25,6 +25,11 @@
         margin-top: 120px;
     }
 
+    .translated-rtl .we-need-help__img {
+        margin-left: 0;
+        margin-top: 120px;
+    }
+
     .we-need-help__give {
         bottom: -180px;
         left: 0;
@@ -302,6 +307,11 @@
 
     .we-need-help__img {
         margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .translated-rtl .we-need-help__img {
+        margin-left: 0;
         margin-top: 50px;
     }
 
@@ -614,8 +624,17 @@
         margin-left: 0;
     }
 
+    .translated-rtl .we-need-help__right {
+        margin-right: 0;
+    }
+
     .we-need-help__img {
         margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .translated-rtl .we-need-help__img {
+        margin-left: 0;
         margin-top: 50px;
     }
 
