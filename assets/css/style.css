@@ -3366,6 +3366,8 @@ li {
     font-family: var(--thm-font);
     margin-top: 15px;
     margin-bottom: 20px;
+    max-height: 70px;
+    overflow: hidden;
 }
 
 .news-one__title h3 a {
