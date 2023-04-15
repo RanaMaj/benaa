@@ -73,40 +73,55 @@
 
     <div class="page-wrapper">
       <div class="site-header__header-one-wrap clearfix">
-        <div class="container">
-          <div class="site-header__logo-box float-left">
+        <div class="container-fluid">
+          <!-- <div class="site-header__logo-box float-left">
             <div class="site-header__logo">
               <a href="index.html"
                 ><img src="assets/images/resources/logo.png" alt=""
               /></a>
             </div>
-          </div>
+          </div> -->
 
           <header class="main-nav__header-one">
-            <div class="main-nav__header-one__top clearfix">
+            <div class="main-nav__header-one__top clearfix up-header">
               <div class="main-nav__header-one__top-left">
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="icon">
-                      <i class="fas fa-phone-square-alt"></i>
+                <nav class="header-navigation">
+                  <div class="container clearfix">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="main-nav__left main-nav__left-one float-left">
+                      <a href="#" class="side-menu__toggler">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                      <div class="main-nav__main-navigation clearfix">
+                        <ul class="main-nav__navigation-box float-left">
+                          <!-- for active add current in class dropdown -->
+                          <li>
+                            <a href="#">ABOUT BENAA</a>
+                          </li>
+                          <li>
+                            <a href="#">privacy policy </a>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#">Help</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                              <li><a href="#">FAQS</a></li>
+                              <li><a href="#">CONTACT US</a></li>
+                            </ul>
+                            <!-- /.sub-menu -->
+                          </li>
+                          <li>
+                            <a href="#">How to Donate?</a>
+                          </li>
+                          <!-- <li>
+                            <a href="contact.html">Contact</a>
+                          </li> -->
+                        </ul>
+                      </div>
+                      <!-- /.navbar-collapse -->
                     </div>
-                    <div class="text">
-                      <p><a href="tel:92-666-888-0000">92 666 888 0000</a></p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="text">
-                      <p>
-                        <a href="mailto:needhelp@company.com"
-                          >needhelp@company.com</a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+                  </div>
+                </nav>
               </div>
               <div class="main-nav__header-one__top-right">
                 <div class="main-nav__header-one__top-social">
@@ -114,102 +129,50 @@
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-dribbble"></i></a>
+                  <a href="index-ar.html">عربي</a>
                 </div>
               </div>
             </div>
-            <nav class="header-navigation stricky">
+            <nav class="header-navigation" style="background-color: #e7e7e7">
               <div class="container clearfix">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="main-nav__left main-nav__left-one float-left">
+                <div class="main-nav__left main-nav__left-one">
+                  <div class="main-nav__left main-nav__left-two">
+                    <div class="logo-two">
+                      <a href="index.html"
+                        ><img src="assets/images/logo/Untitled-2.png" alt=""
+                      /></a>
+                    </div>
+                    <!-- <a href="#" class="side-menu__toggler">
+                      <i class="fa fa-bars"></i>
+                    </a> -->
+                  </div>
                   <a href="#" class="side-menu__toggler">
                     <i class="fa fa-bars"></i>
                   </a>
                   <div class="main-nav__main-navigation clearfix">
                     <ul class="main-nav__navigation-box float-left">
-                      <li class="dropdown">
+                      <li>
                         <a href="index.html">Home</a>
-                        <ul>
-                          <li><a href="index.html">Home 01</a></li>
-                          <li><a href="index2.html">Home 02</a></li>
-                          <li><a href="index3.html">Home 03</a></li>
-                          <li class="dropdown">
-                            <a href="#">Header Versions</a>
-                            <ul>
-                              <li><a href="index.html">Header 01</a></li>
-                              <li><a href="index2.html">Header 02</a></li>
-                              <li><a href="index3.html">Header 03</a></li>
-                            </ul>
-                            <!-- /.sub-menu -->
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Pages</a>
-                        <ul>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="volunteer.html">Volunteers</a></li>
-                          <li>
-                            <a href="become-volunteer.html"
-                              >Become a Volunteer</a
-                            >
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown current">
-                        <a href="#">Donations</a>
-                        <ul>
-                          <li><a href="campaigns.html">Campaigns</a></li>
-                          <li>
-                            <a href="campaign-details.html"
-                              >Campaigns Details</a
-                            >
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Events</a>
-                        <ul>
-                          <li><a href="event.html">Events</a></li>
-                          <li>
-                            <a href="event-details.html">Events Details</a>
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">News</a>
-                        <ul>
-                          <li><a href="news.html">News</a></li>
-                          <li><a href="news-details.html">News Detail</a></li>
-                        </ul>
-                        <!-- /.sub-menu -->
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="campaigns.html">Campaigns</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                      <li>
+                        <a href="#">Activities</a>
+                      </li>
+                      <li>
+                        <a href="blog.html">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Donation portal </a>
                       </li>
                     </ul>
                   </div>
                   <!-- /.navbar-collapse -->
-                </div>
-                <div class="main-nav__right main-nav__right-one float-right">
-                  <div class="main-nav__right__btn-one">
-                    <a href="campaigns.html"
-                      ><i class="fas fa-heart"></i>Donate</a
-                    >
-                  </div>
-                  <div class="main-nav__right__icon-cart-box">
-                    <a href="#">
-                      <span class="icon-shopping-cart"></span>
-                    </a>
-                  </div>
-                  <div class="main-nav__right__icon-search-box">
-                    <a href="#" class="main-nav__search search-popup__toggler">
-                      <i class="icon-magnifying-glass"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
             </nav>
@@ -220,13 +183,14 @@
       <!--Page Header Start-->
       <section
         class="page-header"
+        data-img
         style="
-          background-image: url(assets/images/backgrounds/page-header-bg.jpg);
+          background-image: url(https://img.freepik.com/premium-photo/serednie-ukraine-march-every-kid-has-right-get-education_290431-23898.jpg?w=1380);
         "
       >
         <div class="container">
           <div class="page-header__inner">
-            <h2>Donations</h2>
+            <h2>Campaigns</h2>
             <ul class="thm-breadcrumb list-unstyled">
               <li><a href="index.html">Home</a></li>
               <li><span>/</span></li>
@@ -249,19 +213,19 @@
               <div class="popular-causes__sinlge">
                 <div class="popular-causes__img">
                   <img
-                    src="assets/images/resources/popular-causes-3-img-1.jpg"
+                    src="https://img.freepik.com/premium-photo/roma-houses-gypsy-slums-outskirts-uzhgorod-roma-village-western-ukraine_173948-6745.jpg?w=1380"
                     alt=""
                   />
                   <div class="popular-causes__category">
-                    <p>Food</p>
+                    <p>Support Orphans</p>
                   </div>
                 </div>
                 <div class="popular-causes__content">
                   <div class="popular-causes__title">
                     <h3>
                       <a href="campaign-details.html"
-                        >Raise Fund for Clean & Healthy Water</a
-                      >
+                        >Restoration of homes of poor families
+                      </a>
                     </h3>
                     <p>
                       Aliq is notm hendr erit a augue insu image pellen tes.
@@ -289,19 +253,19 @@
               <div class="popular-causes__sinlge">
                 <div class="popular-causes__img">
                   <img
-                    src="assets/images/resources/popular-causes-3-img-2.jpg"
+                    src="https://img.freepik.com/premium-photo/home-appliances-gas-cooker-tv-cinema-refrigerator-air-conditioner-microwave-laptop-washing-machine_252025-693.jpg?w=996"
                     alt=""
                   />
                   <div class="popular-causes__category">
-                    <p>Education</p>
+                    <p>Support Orphans</p>
                   </div>
                 </div>
                 <div class="popular-causes__content">
                   <div class="popular-causes__title">
                     <h3>
                       <a href="campaign-details.html"
-                        >Our donation is hope for poor childrens</a
-                      >
+                        >Providing electrical appliances to poor families
+                      </a>
                     </h3>
                     <p>
                       Aliq is notm hendr erit a augue insu image pellen tes.
@@ -329,19 +293,19 @@
               <div class="popular-causes__sinlge">
                 <div class="popular-causes__img">
                   <img
-                    src="assets/images/resources/popular-causes-3-img-3.jpg"
+                    src="https://img.freepik.com/premium-photo/children-elementary-age-with-smartphones-backpacks_116407-4724.jpg?w=1380"
                     alt=""
                   />
                   <div class="popular-causes__category">
-                    <p>Education</p>
+                    <p>Support Orphans</p>
                   </div>
                 </div>
                 <div class="popular-causes__content">
                   <div class="popular-causes__title">
                     <h3>
                       <a href="campaign-details.html"
-                        >Education for Poor Children</a
-                      >
+                        >Provide cash assistance to kindergartens
+                      </a>
                     </h3>
                     <p>
                       Aliq is notm hendr erit a augue insu image pellen tes.
@@ -492,12 +456,7 @@
       <!--Popular Causes Three End-->
 
       <!--Site Footer One Start-->
-      <footer
-        class="site-footer"
-        style="
-          background-image: url(assets/images/backgrounds/site_footer_bg.jpg);
-        "
-      >
+      <footer class="site-footer">
         <div class="container">
           <div class="site-footer__one-top">
             <div class="row">
@@ -509,105 +468,43 @@
                   <div class="footer-widget__logo">
                     <a href="index.html"
                       ><img
-                        src="assets/images/resources/footer-logo.png"
+                        src="assets/images/logo/Untitled-2.png 1.png"
                         alt=""
+                        width="67%"
                     /></a>
                   </div>
-                  <p class="footer-widget__text">
-                    Lorem ipsum dolor sit ame consect etur pisicing elit sed do
-                    eiusmod tempor incididunt ut labore.
-                  </p>
-                  <div class="site-footer__social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="clr-fb"
-                      ><i class="fab fa-facebook-square"></i
-                    ></a>
-                    <a href="#" class="clr-dri"
-                      ><i class="fab fa-dribbble"></i
-                    ></a>
-                    <a href="#" class="clr-ins"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
+                </div>
+              </div>
+              <div class="col-xl-9 col-lg-6 col-md-6 wow fadeInUp">
+                <h3>Benaa Association</h3>
+                <p>
+                  Benaa children you are their support to build their future
+                </p>
+                <div class="row">
+                  <div class="col-xl-9">
+                    <ul class="footer-widget__explore-list list-unstyled">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">about</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li><a href="campaigns.html">Campaigns</a></li>
+                      <li><a href="event.html">Activities</a></li>
+                    </ul>
                   </div>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div
-                  class="footer-widget__column footer-widget__explore clearfix"
-                >
-                  <h3 class="footer-widget__title">Explore</h3>
-                  <ul class="footer-widget__explore-list list-unstyled">
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Campaigns</a></li>
-                    <li><a href="#">Fundraise</a></li>
-                    <li><a href="#">Volunteers</a></li>
-                    <li><a href="#">Sponsors</a></li>
-                  </ul>
-                  <ul
-                    class="footer-widget__explore-list footer-widget__explore-list-two list-unstyled"
-                  >
-                    <li><a href="#">Fundraising</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Faqs</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div class="footer-widget__column footer-widget__contact">
-                  <h3 class="footer-widget__title">Contact</h3>
-                  <ul class="list-unstyled footer-widget__contact-list">
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-phone-square-alt"></i>
+                  <div class="col-xl-3">
+                    <div class="site-footer__social">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="clr-fb"
+                        ><i class="fab fa-facebook-square"></i
+                      ></a>
+                      <a href="#" class="clr-ins"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </div>
+                    <div class="copy-right">
+                      <div class="site-footer-bottom__left">
+                        <p>© 2023 by <a href="#">Benaa Association</a></p>
                       </div>
-                      <div class="text">
-                        <p><a href="tel:666-888-0000">666 888 0000</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-envelope"></i>
-                      </div>
-                      <div class="text">
-                        <p>
-                          <a href="mailto:needhelp@company.com"
-                            >needhelp@company.com</a
-                          >
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                      </div>
-                      <div class="text">
-                        <p>666 road, broklyn street new york 600</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div class="footer-widget__column footer-widget__support">
-                  <h3 class="footer-widget__title">Support</h3>
-                  <p class="footer-widget__support-text">
-                    Lorem ipsum dolor sit ame consect etur pisicing elit sed do
-                    eiusmod tempor incididunt ut labore.
-                  </p>
-                  <div class="footer-widget__support-btn">
-                    <a href="campaigns.html"
-                      ><i class="fas fa-heart"></i>Donate</a
-                    >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -616,27 +513,6 @@
         </div>
       </footer>
       <!--Site Footer One End-->
-
-      <!--Site Footer Bottom Start-->
-      <div class="site-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="site-footer-bottom__inner">
-                <div class="site-footer-bottom__left">
-                  <p>© Copyright 2021 by <a href="#">Layerdrops.com</a></p>
-                </div>
-                <ul class="site-footer-bottom__menu list-unstyled">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><span>/</span></li>
-                  <li><a href="#">Terms of Condition</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Site Footer Bottom End-->
     </div>
     <!-- /.page-wrapper -->
 

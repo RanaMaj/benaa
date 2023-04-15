@@ -773,6 +773,14 @@
         margin-top: 20px;
     }
 
+    .translated-rtl .you-can-help__three-icon ul li .text p {
+        color: #000;
+    }
+
+    .you-can-help__three-icon ul li .text p {
+        color: #000;
+    }
+
     .you-can-help__three-icon ul li:nth-child(2) {
         margin-left: 15px;
         margin-right: 15px;

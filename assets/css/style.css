@@ -123,7 +123,7 @@ li {
 }
 
 .block-title {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     margin-top: -11px;
 }
 
@@ -2445,6 +2445,7 @@ li {
     transition: opacity 500ms ease, -webkit-transform 500ms ease;
     transition: transform 500ms ease, opacity 500ms ease;
     transition: transform 500ms ease, opacity 500ms ease, -webkit-transform 500ms ease;
+    height: 306px;
 }
 
 .popular-causes__sinlge:hover .popular-causes__img img {
@@ -2481,6 +2482,7 @@ li {
     padding: 32px 0 19px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    height: 25rem;
 }
 
 .popular-causes__sinlge:hover .popular-causes__content {
@@ -2656,7 +2658,7 @@ li {
     height: 100%;
     width: 100%;
     content: "";
-    background: rgba(44, 39, 52, .92);
+    background: #2b2b2b;
 }
 
 .we-are-helping__left {
@@ -2699,8 +2701,10 @@ li {
 
 .we-are-helping__arrow {
     position: absolute;
-    bottom: 49px;
+    /* bottom: 49px; */
     left: 152px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .we-are-helping__arrow img {
@@ -3848,7 +3852,7 @@ li {
 .you-can-help {
     position: relative;
     display: block;
-    padding: 255px 0 120px;
+    padding: 255px 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -3857,22 +3861,31 @@ li {
 
 .you-can-help-img {
     position: absolute;
-    bottom: -140px;
+    bottom: 0;
     right: 0;
+    left: auto;
+    width: 50%;
+}
+
+.you-can-help-img img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .you-can-help__three-icon ul li {
     position: relative;
-    display: inline-block;
-    background: var(--thm-primary);
-    text-align: center;
-    height: 150px;
-    width: 150px;
+    /* display: inline-block; */
+    /* background: var(--thm-primary); */
+    /* text-align: center; */
+    /* height: 150px; */
+    /* width: 150px; */
     border-radius: 8px;
     margin-right: 15px;
-    padding: 27px 0 33px;
+    padding: 0 0 33px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    color: #000;
+    margin: 5% auto;
 }
 
 .you-can-help__three-icon ul li:last-child {
@@ -3880,15 +3893,15 @@ li {
 }
 
 .you-can-help__three-icon ul li:nth-child(2) {
-    background: #0e8ee3;
+    /* background: #0e8ee3; */
 }
 
 .you-can-help__three-icon ul li:nth-child(3) {
-    background: #4ac14f;
+    /* background: #4ac14f; */
 }
 
 .you-can-help__three-icon ul li:hover {
-    background: var(--thm-black);
+    /* background: #eee; */
 }
 
 .you-can-help__three-icon ul li .icon-box {
@@ -3896,14 +3909,14 @@ li {
 }
 
 .you-can-help__three-icon ul li .icon-box span {
-    color: #ffffff;
+    color: #EB9938;
     font-size: 58px;
     line-height: 65px;
 }
 
 .you-can-help__three-icon ul li .text p {
     font-size: 20px;
-    color: #ffffff;
+    color: #222;
     margin: 0;
     line-height: 30px;
     font-weight: 500;
@@ -3917,8 +3930,8 @@ li {
 .you-can-help__give-box {
     position: relative;
     display: block;
-    height: 193px;
-    width: 193px;
+    height: 200px;
+    width: 200px;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
@@ -3948,18 +3961,19 @@ li {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+    width: 67%;
 }
 
 .you-can-help__give-text-box p {
     font-size: 30px;
     color: var(--thm-black);
-    font-family: var(--thm-font-shadows);
+    /* font-family: var(--thm-font-shadows); */
     margin: 0;
 }
 
 .you-can-help__icon-box {
     position: absolute;
-    top: -30px;
+    top: -48px;
     right: -30px;
     height: 106px;
     width: 106px;
@@ -4252,7 +4266,7 @@ li {
     transition: all 500ms ease;
 }
 
-.meet-volunteers-one__social-info-box a+a {
+.meet-volunteers-one__social-info-box a {
     margin-left: 20px;
 }
 
@@ -5899,6 +5913,7 @@ li {
     padding: 124px 0 129px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .page-header:before {
@@ -5933,7 +5948,7 @@ li {
     display: inline-block;
     color: #ffffff;
     font-size: 24px;
-    font-family: var(--thm-font-shadows);
+    /* font-family: var(--thm-font-shadows); */
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -6563,11 +6578,17 @@ li {
     border-top: 0;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    height: 25rem;
 }
 
 .event-page__single:hover .event-page__content {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, .07);
+    /* height: 25rem; */
+}
+
+.event-page__content a {
+    color: var(--base-primary);
 }
 
 .event-page__title {
@@ -6599,6 +6620,7 @@ li {
     font-size: 15px;
     color: var(--thm-primary);
     margin-right: 5px;
+    margin-left: 5px;
 }
 
 .event-page__btn {
@@ -7711,7 +7733,7 @@ li {
 # You Can Help Two
 --------------------------------------------------------------*/
 .you-can-help-two {
-    padding-top: 120px;
+    padding-top: 5%;
     margin-top: 0;
 }
 

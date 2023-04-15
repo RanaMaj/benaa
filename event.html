@@ -73,40 +73,55 @@
 
     <div class="page-wrapper">
       <div class="site-header__header-one-wrap clearfix">
-        <div class="container">
-          <div class="site-header__logo-box float-left">
+        <div class="container-fluid">
+          <!-- <div class="site-header__logo-box float-left">
             <div class="site-header__logo">
               <a href="index.html"
                 ><img src="assets/images/resources/logo.png" alt=""
               /></a>
             </div>
-          </div>
+          </div> -->
 
           <header class="main-nav__header-one">
-            <div class="main-nav__header-one__top clearfix">
+            <div class="main-nav__header-one__top clearfix up-header">
               <div class="main-nav__header-one__top-left">
-                <ul class="list-unstyled">
-                  <li>
-                    <div class="icon">
-                      <i class="fas fa-phone-square-alt"></i>
+                <nav class="header-navigation">
+                  <div class="container clearfix">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="main-nav__left main-nav__left-one float-left">
+                      <a href="#" class="side-menu__toggler">
+                        <i class="fa fa-bars"></i>
+                      </a>
+                      <div class="main-nav__main-navigation clearfix">
+                        <ul class="main-nav__navigation-box float-left">
+                          <!-- for active add current in class dropdown -->
+                          <li>
+                            <a href="#">ABOUT BENAA</a>
+                          </li>
+                          <li>
+                            <a href="#">privacy policy </a>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#">Help</a>
+                            <i class="fa fa-angle-down"></i>
+                            <ul>
+                              <li><a href="#">FAQS</a></li>
+                              <li><a href="#">CONTACT US</a></li>
+                            </ul>
+                            <!-- /.sub-menu -->
+                          </li>
+                          <li>
+                            <a href="#">How to Donate?</a>
+                          </li>
+                          <!-- <li>
+                            <a href="contact.html">Contact</a>
+                          </li> -->
+                        </ul>
+                      </div>
+                      <!-- /.navbar-collapse -->
                     </div>
-                    <div class="text">
-                      <p><a href="tel:92-666-888-0000">92 666 888 0000</a></p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <i class="fas fa-envelope"></i>
-                    </div>
-                    <div class="text">
-                      <p>
-                        <a href="mailto:needhelp@company.com"
-                          >needhelp@company.com</a
-                        >
-                      </p>
-                    </div>
-                  </li>
-                </ul>
+                  </div>
+                </nav>
               </div>
               <div class="main-nav__header-one__top-right">
                 <div class="main-nav__header-one__top-social">
@@ -114,102 +129,50 @@
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-dribbble"></i></a>
+                  <a href="index-ar.html">عربي</a>
                 </div>
               </div>
             </div>
-            <nav class="header-navigation stricky">
+            <nav class="header-navigation" style="background-color: #e7e7e7">
               <div class="container clearfix">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="main-nav__left main-nav__left-one float-left">
+                <div class="main-nav__left main-nav__left-one">
+                  <div class="main-nav__left main-nav__left-two">
+                    <div class="logo-two">
+                      <a href="index.html"
+                        ><img src="assets/images/logo/Untitled-2.png" alt=""
+                      /></a>
+                    </div>
+                    <!-- <a href="#" class="side-menu__toggler">
+                      <i class="fa fa-bars"></i>
+                    </a> -->
+                  </div>
                   <a href="#" class="side-menu__toggler">
                     <i class="fa fa-bars"></i>
                   </a>
                   <div class="main-nav__main-navigation clearfix">
                     <ul class="main-nav__navigation-box float-left">
-                      <li class="dropdown">
+                      <li>
                         <a href="index.html">Home</a>
-                        <ul>
-                          <li><a href="index.html">Home 01</a></li>
-                          <li><a href="index2.html">Home 02</a></li>
-                          <li><a href="index3.html">Home 03</a></li>
-                          <li class="dropdown">
-                            <a href="#">Header Versions</a>
-                            <ul>
-                              <li><a href="index.html">Header 01</a></li>
-                              <li><a href="index2.html">Header 02</a></li>
-                              <li><a href="index3.html">Header 03</a></li>
-                            </ul>
-                            <!-- /.sub-menu -->
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Pages</a>
-                        <ul>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="volunteer.html">Volunteers</a></li>
-                          <li>
-                            <a href="become-volunteer.html"
-                              >Become a Volunteer</a
-                            >
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Donations</a>
-                        <ul>
-                          <li><a href="campaigns.html">Campaigns</a></li>
-                          <li>
-                            <a href="campaign-details.html"
-                              >Campaigns Details</a
-                            >
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown current">
-                        <a href="#">Events</a>
-                        <ul>
-                          <li><a href="event.html">Events</a></li>
-                          <li>
-                            <a href="event-details.html">Events Details</a>
-                          </li>
-                        </ul>
-                        <!-- /.sub-menu -->
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">News</a>
-                        <ul>
-                          <li><a href="news.html">News</a></li>
-                          <li><a href="news-details.html">News Detail</a></li>
-                        </ul>
-                        <!-- /.sub-menu -->
                       </li>
                       <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="campaigns.html">Campaigns</a>
+                      </li>
+                      <li>
+                        <a href="#">Projects</a>
+                      </li>
+                      <li>
+                        <a href="#">Activities</a>
+                      </li>
+                      <li>
+                        <a href="blog.html">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#">Donation portal </a>
                       </li>
                     </ul>
                   </div>
                   <!-- /.navbar-collapse -->
-                </div>
-                <div class="main-nav__right main-nav__right-one float-right">
-                  <div class="main-nav__right__btn-one">
-                    <a href="campaigns.html"
-                      ><i class="fas fa-heart"></i>Donate</a
-                    >
-                  </div>
-                  <div class="main-nav__right__icon-cart-box">
-                    <a href="#">
-                      <span class="icon-shopping-cart"></span>
-                    </a>
-                  </div>
-                  <div class="main-nav__right__icon-search-box">
-                    <a href="#" class="main-nav__search search-popup__toggler">
-                      <i class="icon-magnifying-glass"></i>
-                    </a>
-                  </div>
                 </div>
               </div>
             </nav>
@@ -221,16 +184,16 @@
       <section
         class="page-header"
         style="
-          background-image: url(assets/images/backgrounds/page-header-bg.jpg);
+          background-image: url(https://img.freepik.com/premium-photo/businessman-working-tablet-supporting-customer-shareholder-partnership-employee-jumping-forward-arrow-up-from-low-high-reaching-goal-potential_34048-2141.jpg?w=1480);
         "
       >
         <div class="container">
           <div class="page-header__inner">
-            <h2>Events</h2>
+            <h2>Our Projects</h2>
             <ul class="thm-breadcrumb list-unstyled">
               <li><a href="index.html">Home</a></li>
               <li><span>/</span></li>
-              <li>Events</li>
+              <li>Projects</li>
             </ul>
           </div>
         </div>
@@ -255,27 +218,25 @@
                     />
                   </div>
                   <div class="event-page__date">
-                    <p>
-                      23 <br />
-                      Dec
-                    </p>
+                    <p>Seasonal</p>
                   </div>
                 </div>
                 <div class="event-page__content">
-                  <h3 class="event-page__title">
-                    <a href="event-details.html"
-                      >Mission for Fresh & Clean Water</a
-                    >
-                  </h3>
+                  <h3 class="event-page__title">Food parcels</h3>
+                  <a href="event-details-ar.html">Ramadan</a>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
                     <li>
                       <i class="far fa-map"></i>66 broklyn Street, New York
                     </li>
                   </ul>
-                  <a href="event-details.html" class="thm-btn event-page__btn"
-                    >More</a
-                  >
+                  <div>
+                    <a
+                      href="event-details-ar.html"
+                      class="thm-btn event-page__btn"
+                      >المزيد</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -293,15 +254,12 @@
                     />
                   </div>
                   <div class="event-page__date">
-                    <p>
-                      23 <br />
-                      Dec
-                    </p>
+                    <p>Seasonal</p>
                   </div>
                 </div>
                 <div class="event-page__content">
                   <h3 class="event-page__title">
-                    <a href="event-details.html">Education for poor children</a>
+                    <a href="event-details.html">Fasting breakfast </a>
                   </h3>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
@@ -337,7 +295,9 @@
                 </div>
                 <div class="event-page__content">
                   <h3 class="event-page__title">
-                    <a href="event-details.html">Rights for street childrens</a>
+                    <a href="event-details.html"
+                      >Suhoor meals for the seclusion
+                    </a>
                   </h3>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
@@ -373,7 +333,7 @@
                 </div>
                 <div class="event-page__content">
                   <h3 class="event-page__title">
-                    <a href="event-details.html">Help for needy people</a>
+                    <a href="event-details.html">Eid clothing for children </a>
                   </h3>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
@@ -409,7 +369,45 @@
                 </div>
                 <div class="event-page__content">
                   <h3 class="event-page__title">
-                    <a href="event-details.html">Donation day for people</a>
+                    <a href="event-details.html"
+                      >Distribution of sacrificial meat
+                    </a>
+                  </h3>
+                  <ul class="event-page__meta-box list-unstyled">
+                    <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
+                    <li>
+                      <i class="far fa-map"></i>66 broklyn Street, New York
+                    </li>
+                  </ul>
+                  <a href="event-details.html" class="thm-btn event-page__btn"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <!--Event Page Single-->
+              <div class="event-page__single">
+                <div class="event-page__img-box">
+                  <div class="event-page__img">
+                    <img
+                      src="assets/images/event/event-page-img-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-page__date">
+                    <p>
+                      23 <br />
+                      Dec
+                    </p>
+                  </div>
+                </div>
+                <div class="event-page__content">
+                  <h3 class="event-page__title">
+                    <a href="event-details.html">Bags distribution </a>
                   </h3>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
@@ -446,8 +444,160 @@
                 <div class="event-page__content">
                   <h3 class="event-page__title">
                     <a href="event-details.html"
-                      >Rise funds needy people food</a
-                    >
+                      >School uniform distribution
+                    </a>
+                  </h3>
+                  <ul class="event-page__meta-box list-unstyled">
+                    <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
+                    <li>
+                      <i class="far fa-map"></i>66 broklyn Street, New York
+                    </li>
+                  </ul>
+                  <a href="event-details.html" class="thm-btn event-page__btn"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <!--Event Page Single-->
+              <div class="event-page__single">
+                <div class="event-page__img-box">
+                  <div class="event-page__img">
+                    <img
+                      src="assets/images/event/event-page-img-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-page__date">
+                    <p>
+                      23 <br />
+                      Dec
+                    </p>
+                  </div>
+                </div>
+                <div class="event-page__content">
+                  <h3 class="event-page__title">
+                    <a href="event-details.html"
+                      >Distribution of winter heaters
+                    </a>
+                  </h3>
+                  <ul class="event-page__meta-box list-unstyled">
+                    <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
+                    <li>
+                      <i class="far fa-map"></i>66 broklyn Street, New York
+                    </li>
+                  </ul>
+                  <a href="event-details.html" class="thm-btn event-page__btn"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <!--Event Page Single-->
+              <div class="event-page__single">
+                <div class="event-page__img-box">
+                  <div class="event-page__img">
+                    <img
+                      src="assets/images/event/event-page-img-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-page__date">
+                    <p>
+                      23 <br />
+                      Dec
+                    </p>
+                  </div>
+                </div>
+                <div class="event-page__content">
+                  <h3 class="event-page__title">
+                    <a href="event-details.html"
+                      >Distribution of winter clothes and winter blankets
+                    </a>
+                  </h3>
+                  <ul class="event-page__meta-box list-unstyled">
+                    <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
+                    <li>
+                      <i class="far fa-map"></i>66 broklyn Street, New York
+                    </li>
+                  </ul>
+                  <a href="event-details.html" class="thm-btn event-page__btn"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <!--Event Page Single-->
+              <div class="event-page__single">
+                <div class="event-page__img-box">
+                  <div class="event-page__img">
+                    <img
+                      src="assets/images/event/event-page-img-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-page__date">
+                    <p>
+                      23 <br />
+                      Dec
+                    </p>
+                  </div>
+                </div>
+                <div class="event-page__content">
+                  <h3 class="event-page__title">
+                    <a href="event-details.html"
+                      >Baladi wheat flour distribution
+                    </a>
+                  </h3>
+                  <ul class="event-page__meta-box list-unstyled">
+                    <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
+                    <li>
+                      <i class="far fa-map"></i>66 broklyn Street, New York
+                    </li>
+                  </ul>
+                  <a href="event-details.html" class="thm-btn event-page__btn"
+                    >More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay="600ms"
+            >
+              <!--Event Page Single-->
+              <div class="event-page__single">
+                <div class="event-page__img-box">
+                  <div class="event-page__img">
+                    <img
+                      src="assets/images/event/event-page-img-6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="event-page__date">
+                    <p>
+                      23 <br />
+                      Dec
+                    </p>
+                  </div>
+                </div>
+                <div class="event-page__content">
+                  <h3 class="event-page__title">
+                    <a href="event-details.html"
+                      >Distribution of sanitary packages
+                    </a>
                   </h3>
                   <ul class="event-page__meta-box list-unstyled">
                     <li><i class="far fa-clock"></i>04:00 am / 06:00 am</li>
@@ -471,12 +621,7 @@
       <!--Event Page End-->
 
       <!--Site Footer One Start-->
-      <footer
-        class="site-footer"
-        style="
-          background-image: url(assets/images/backgrounds/site_footer_bg.jpg);
-        "
-      >
+      <footer class="site-footer">
         <div class="container">
           <div class="site-footer__one-top">
             <div class="row">
@@ -488,105 +633,43 @@
                   <div class="footer-widget__logo">
                     <a href="index.html"
                       ><img
-                        src="assets/images/resources/footer-logo.png"
+                        src="assets/images/logo/Untitled-2.png 1.png"
                         alt=""
+                        width="67%"
                     /></a>
                   </div>
-                  <p class="footer-widget__text">
-                    Lorem ipsum dolor sit ame consect etur pisicing elit sed do
-                    eiusmod tempor incididunt ut labore.
-                  </p>
-                  <div class="site-footer__social">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="clr-fb"
-                      ><i class="fab fa-facebook-square"></i
-                    ></a>
-                    <a href="#" class="clr-dri"
-                      ><i class="fab fa-dribbble"></i
-                    ></a>
-                    <a href="#" class="clr-ins"
-                      ><i class="fab fa-instagram"></i
-                    ></a>
+                </div>
+              </div>
+              <div class="col-xl-9 col-lg-6 col-md-6 wow fadeInUp">
+                <h3>Benaa Association</h3>
+                <p>
+                  Benaa children you are their support to build their future
+                </p>
+                <div class="row">
+                  <div class="col-xl-9">
+                    <ul class="footer-widget__explore-list list-unstyled">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">about</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li><a href="campaigns.html">Campaigns</a></li>
+                      <li><a href="event.html">Activities</a></li>
+                    </ul>
                   </div>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="200ms"
-              >
-                <div
-                  class="footer-widget__column footer-widget__explore clearfix"
-                >
-                  <h3 class="footer-widget__title">Explore</h3>
-                  <ul class="footer-widget__explore-list list-unstyled">
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">Campaigns</a></li>
-                    <li><a href="#">Fundraise</a></li>
-                    <li><a href="#">Volunteers</a></li>
-                    <li><a href="#">Sponsors</a></li>
-                  </ul>
-                  <ul
-                    class="footer-widget__explore-list footer-widget__explore-list-two list-unstyled"
-                  >
-                    <li><a href="#">Fundraising</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Faqs</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="300ms"
-              >
-                <div class="footer-widget__column footer-widget__contact">
-                  <h3 class="footer-widget__title">Contact</h3>
-                  <ul class="list-unstyled footer-widget__contact-list">
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-phone-square-alt"></i>
+                  <div class="col-xl-3">
+                    <div class="site-footer__social">
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="clr-fb"
+                        ><i class="fab fa-facebook-square"></i
+                      ></a>
+                      <a href="#" class="clr-ins"
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </div>
+                    <div class="copy-right">
+                      <div class="site-footer-bottom__left">
+                        <p>© 2023 by <a href="#">Benaa Association</a></p>
                       </div>
-                      <div class="text">
-                        <p><a href="tel:666-888-0000">666 888 0000</a></p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-envelope"></i>
-                      </div>
-                      <div class="text">
-                        <p>
-                          <a href="mailto:needhelp@company.com"
-                            >needhelp@company.com</a
-                          >
-                        </p>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                      </div>
-                      <div class="text">
-                        <p>666 road, broklyn street new york 600</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div
-                class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay="400ms"
-              >
-                <div class="footer-widget__column footer-widget__support">
-                  <h3 class="footer-widget__title">Support</h3>
-                  <p class="footer-widget__support-text">
-                    Lorem ipsum dolor sit ame consect etur pisicing elit sed do
-                    eiusmod tempor incididunt ut labore.
-                  </p>
-                  <div class="footer-widget__support-btn">
-                    <a href="campaigns.html"
-                      ><i class="fas fa-heart"></i>Donate</a
-                    >
+                    </div>
                   </div>
                 </div>
               </div>
@@ -595,27 +678,6 @@
         </div>
       </footer>
       <!--Site Footer One End-->
-
-      <!--Site Footer Bottom Start-->
-      <div class="site-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12">
-              <div class="site-footer-bottom__inner">
-                <div class="site-footer-bottom__left">
-                  <p>© Copyright 2021 by <a href="#">Layerdrops.com</a></p>
-                </div>
-                <ul class="site-footer-bottom__menu list-unstyled">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><span>/</span></li>
-                  <li><a href="#">Terms of Condition</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--Site Footer Bottom End-->
     </div>
     <!-- /.page-wrapper -->
 

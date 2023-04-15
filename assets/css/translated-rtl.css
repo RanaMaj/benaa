@@ -339,3 +339,57 @@
     line-height: 60px;
     text-align: start;
 }
+
+.translated-rtl .make-donation-two__text {
+    text-align: start;
+}
+
+.translated-rtl .you-can-help-img {
+    position: absolute;
+    bottom: -140px;
+    right: auto;
+    left: 0;
+    width: 50%;
+}
+
+.translated-rtl .you-can-help__three-icon {
+    text-align: start;
+}
+
+.translated-rtl .block-title h4 {
+    display: block;
+}
+
+.translated-rtl .you-can-help__give-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 60%;
+}
+
+.translated-rtl .you-can-help__three-icon ul li .text p {
+    font-size: 20px;
+    color: #222;
+    margin: 0;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.translated-rtl .you-can-help-img img {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.translated-rtl .we-are-helping__points ul li .text {
+    margin-right: 30px;
+    text-align: start;
+}
+
+.translated-rtl .we-are-helping__arrow {
+    position: absolute;
+    /* bottom: 49px; */
+    left: 152px;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
