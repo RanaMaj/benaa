@@ -430,3 +430,7 @@
 .translated-rtl .events-and-newsletter .upcoming-events__title h3 {
     text-align: start;
 }
+
+.translated-rtl .main-nav__main-navigation .main-nav__navigation-box>li>a {
+    font-size: 15px;
+}

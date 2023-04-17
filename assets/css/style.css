@@ -704,6 +704,15 @@ li {
     z-index: 1;
 }
 
+.main-nav__main-navigation .main-nav__navigation-box>li:last-child>a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.main-nav__main-navigation .main-nav__navigation-box>li:last-child:hover>a {
+    color: #fff;
+}
+
 .main-nav__main-navigation .main-nav__navigation-box>li>a:before {
     position: absolute;
     left: 0;
@@ -716,6 +725,11 @@ li {
     opacity: 0;
     transition: all 500ms ease;
     z-index: -1;
+}
+
+.main-nav__main-navigation .main-nav__navigation-box>li:last-child>a:before {
+    background: none;
+    color: #fff;
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li:hover>a,
@@ -959,7 +973,7 @@ li {
 
 /* stricky Menu Css */
 .stricked-menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -7781,4 +7795,205 @@ li {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*
+Coming Soon Area CSS
+=====================================================*/
+.coming-soon-area {
+    /* background-color: #eae5e3; */
+    height: auto;
+    margin: 2% 0;
+}
+
+.coming-soon-area .coming-soon-content {
+    max-width: 700px;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 60px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+    -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.coming-soon-area .coming-soon-content .logo {
+    display: inline-block;
+}
+
+.coming-soon-area .coming-soon-content h2 {
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.coming-soon-area .coming-soon-content #timer {
+    margin-top: 40px;
+}
+
+.coming-soon-area .coming-soon-content #timer div {
+    background-color: #000024;
+    color: #ffffff;
+    width: 100px;
+    height: 105px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.coming-soon-area .coming-soon-content #timer div span {
+    display: block;
+    margin-top: -2px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.coming-soon-area .coming-soon-content form {
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.coming-soon-area .coming-soon-content form .form-group {
+    margin-bottom: 25px;
+    width: 100%;
+    position: relative;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .label-title {
+    margin-bottom: 0;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    color: #000024;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .label-title i {
+    position: absolute;
+    left: 0;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    top: 9px;
+    font-size: 22px;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .label-title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    background: #0383ff;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 0 0 32px;
+    color: #000024;
+    height: 45px;
+    display: block;
+    width: 100%;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter::-webkit-input-placeholder {
+    color: #555555;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:-ms-input-placeholder {
+    color: #555555;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter::-ms-input-placeholder {
+    color: #555555;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter::placeholder {
+    color: #555555;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus {
+    border-color: #0383ff;
+    outline: 0 !important;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.coming-soon-area .coming-soon-content form .form-group .input-newsletter:focus::placeholder {
+    color: transparent;
+}
+
+.coming-soon-area .coming-soon-content form .default-btn {
+    border-radius: 0;
+    position: relative;
+}
+
+.coming-soon-area .coming-soon-content form .default-btn::before {
+    border-radius: 0;
+}
+
+.coming-soon-area .coming-soon-content form .validation-danger {
+    margin-top: 15px;
+    color: #ff0000;
+}
+
+.coming-soon-area .coming-soon-content form .validation-success {
+    margin-top: 15px;
+}
+
+.coming-soon-area .coming-soon-content form p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.coming-soon-area .online-treatment-shape-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coming-soon-area .online-treatment-shape-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
