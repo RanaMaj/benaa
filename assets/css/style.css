@@ -4482,7 +4482,7 @@ li {
 .events-and-newsletter {
     position: relative;
     display: block;
-    padding: 0 0 120px;
+    padding: 50px 0 50px;
 }
 
 .events-and-newsletter__btn {
@@ -4594,6 +4594,17 @@ li {
     font-size: 30px;
     font-family: var(--thm-font);
     line-height: 16px;
+}
+
+.events-and-newsletter .upcoming-events__title h3 {
+    font-size: 24px;
+    font-family: var(--thm-font);
+    line-height: 24px;
+}
+
+.events-and-newsletter .block-title {
+    margin-bottom: 45px;
+    margin-top: -11px;
 }
 
 .title_four {

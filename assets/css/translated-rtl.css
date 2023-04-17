@@ -422,7 +422,11 @@
     left: 15px;
 }
 
-.news-details__meta li a i {
+.translated-rtl .news-details__meta li a i {
     margin-left: 4px;
     margin-right: 0;
+}
+
+.translated-rtl .events-and-newsletter .upcoming-events__title h3 {
+    text-align: start;
 }
