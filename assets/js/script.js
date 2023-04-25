@@ -59,3 +59,10 @@ function makeTimer() {
 setInterval(function () {
   makeTimer();
 }, 300);
+
+// Dark Mode
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

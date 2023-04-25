@@ -70,6 +70,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     font-weight: 400;
+    /* background-color: rgba(245, 219, 207, 0.15); */
 }
 
 button:focus {
@@ -501,10 +502,6 @@ li {
     }
 }
 
-
-
-
-
 /*--------------------------------------------------------------
     Site Header Header one wrap
 --------------------------------------------------------------*/
@@ -644,7 +641,7 @@ li {
 .main-nav__left-one {
     position: relative;
     display: block;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 
 .page-header .main-nav__left-one {
@@ -659,7 +656,7 @@ li {
 .main-nav__main-navigation {
     position: relative;
     display: block;
-    margin-left: 3rem;
+    margin-left: 5rem;
 }
 
 .main-nav__main-navigation .main-nav__navigation-box {
@@ -707,6 +704,13 @@ li {
 .main-nav__main-navigation .main-nav__navigation-box>li:last-child>a {
     color: #fff;
     font-size: 14px;
+}
+
+.donate-btn {
+    display: flex;
+    align-items: center;
+    /* width: 195px; */
+    height: 70px;
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li:last-child:hover>a {
@@ -922,9 +926,9 @@ li {
     background: #2b2b2b;
 }
 
-.up-header .main-nav__main-navigation {
+/* .up-header .main-nav__main-navigation {
     margin-left: 1rem;
-}
+} */
 
 .up-header .main-nav__main-navigation .main-nav__navigation-box>li>a {
     font-size: 12px;
@@ -3248,6 +3252,12 @@ li {
     display: block;
     margin-bottom: 30px;
     background: #ffffff;
+}
+
+.main-activites .news-one__single {
+    border: 1px solid #eae5e3;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .news-one__img {
@@ -7996,4 +8006,22 @@ Coming Soon Area CSS
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.dark-toggle {
+    --tw-bg-opacity: 1;
+    align-items: center;
+    background-color: rgba(88, 102, 126);
+    border-radius: 9999px;
+    cursor: pointer;
+    display: flex;
+    height: 18px;
+    position: relative;
+    width: 44px;
+}
+
+/* Dark Mode  */
+.dark-mode {
+    background-color: #1D2A35;
+    color: #059862;
 }
