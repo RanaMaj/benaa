@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --ben-bg: #F0F2F5;
+    --ben-blue: #23779C;
+    --ben-green: #059862;
+}
+
 .translated-rtl body {
     direction: rtl;
 }
@@ -216,7 +222,7 @@
 .translated-rtl .main-nav__header-one__top {
     position: relative;
     display: block;
-    background: #2b2b2b;
+    background: var(--ben-blue);
     padding: 2px 0;
     display: flex;
     justify-content: center;
@@ -429,4 +435,23 @@
 
 .translated-rtl .main-nav__main-navigation .main-nav__navigation-box>li>a {
     font-size: 15px;
+}
+
+.translated-rtl .welcome-two__checks .welcome-two__check-one {
+    color: var(--thm-black);
+    display: inline-block;
+    padding-right: 15px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    border-right-color: #059862;
+    cursor: auto;
+    border-right-style: double;
+    border-left-style: none;
+
+}
+
+.translated-rtl .tittle-box {
+    text-align: start;
+    padding-left: 0;
+    padding-right: 2rem;
 }
