@@ -453,3 +453,13 @@
     padding-left: 0;
     padding-right: 2rem;
 }
+
+.mobile-nav__close {
+    position: absolute;
+    top: 20px;
+    left: 31px;
+    right: 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
