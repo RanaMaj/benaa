@@ -463,3 +463,20 @@
     color: #fff;
     cursor: pointer;
 }
+
+.translated-rtl .campaign-details__donations {
+    text-align: start;
+}
+
+
+.translated-rtl .campaign-details__donations-content {
+    margin-right: 20px;
+}
+
+.translated-rtl .campaign-details__text-box {
+    text-align: start;
+}
+
+.translated-rtl .campaign-details__summary {
+    text-align: start;
+}
